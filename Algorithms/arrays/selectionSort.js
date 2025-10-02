@@ -9,7 +9,6 @@ function selectionSort(nums) {
     if (minIndex !== i) {
       [nums[i], nums[minIndex]] = [nums[minIndex], nums[i]]; // swap values
     }
-    console.log(nums);
   }
   return nums;
 }
